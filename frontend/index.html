@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Backend</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="alap.js"></script>
+</head>
+<body>
+    <table id="tablazat">
+        
+    </table>
+    <br>
+    <form>
+        Új adat felvétele: <br>
+        Név: <input type="text" id="ujnev">
+        Ár: <input type="number" min="1" max="1000000" id="ujar">
+        Szín: <input type="text" id="ujszin">
+        Méret: <input type="text" id="ujmeret">
+        Anyag: <input type="text" id="ujanyag"><br><br>
+        <input type="button" value="Küldés" onclick="felvitel_butor()">
+        <input type="button" value="Újratöltés" onclick="ujratolt()">
+    </form>
+</body>
+</html>

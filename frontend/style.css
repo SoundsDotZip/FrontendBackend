@@ -1,0 +1,19 @@
+#elsosor{
+    background-color: #113366;
+    color: mintcream;
+    font-family: Calibri;
+}
+th,td{
+    width: 170px;
+    text-align: center;
+    border: 1px solid black;
+}
+#tablazat{
+    border-collapse: collapse;
+}
+body{
+    font-size: 20px;
+}
+input{
+    font-size: 16px;
+}
